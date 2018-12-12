@@ -3,6 +3,7 @@ package solution101to150;
 import java.util.ArrayList;
 import java.util.List;
 
+// Leetcode 118. Pascal's Triangle
 public class Solution118 {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> triangle = new ArrayList<>();
