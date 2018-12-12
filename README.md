@@ -1,6 +1,6 @@
-# leetcode-java
+# Leetcode-Java
 
-> Java Solutions for Leetcode.
+> ![](logo/java.svg)Java Solutions for Leetcode.
 
 | # | Title | Solution | Wechat |
 | :-: | :-: | :-: | :-: |
