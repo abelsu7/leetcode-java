@@ -1,9 +1,10 @@
 import common.*;
 import solution101to150.*;
+import solution251to300.*;
 
 public class Main {
     public static void main(String[] args) {
-        test101();
+        test292();
     }
 
     // Leetcode 101. Symmetric Tree
@@ -30,5 +31,12 @@ public class Main {
         int numRows = 5;
         System.out.println("Pascal's Triangle with " + numRows + " rows:");
         System.out.println(solution118.generate(numRows));
+    }
+
+    // Leetcode 292. Nim Game
+    public static void test292() {
+        Solution292 solution292 = new Solution292();
+        int n = 4;
+        System.out.println("Nim Game with " + n + " stones: " + solution292.canWinNim(n));
     }
 }
