@@ -1,7 +1,7 @@
-package solution1to50;
+package solution001to050;
 
 // Leetcode 9. Palindrome Number
-public class Solution9 {
+public class Solution009 {
     public boolean isPalindrome(int x) {
         /**
          * if x < 0 or end up with 0 ( except 0 itself )

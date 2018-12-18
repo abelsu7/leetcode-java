@@ -1,18 +1,18 @@
 import common.*;
-import solution1to50.*;
+import solution001to050.*;
 import solution101to150.*;
 import solution251to300.*;
 
 public class Main {
     public static void main(String[] args) {
-        test9();
+        test009();
     }
 
     // Leetcode 9. Palindrome Number
-    public static void test9() {
-        Solution9 solution9 = new Solution9();
-        int num = 49094;
-        System.out.println("Is " + num + " a palindrome number?\n" + solution9.isPalindrome(num));
+    public static void test009() {
+        Solution009 solution009 = new Solution009();
+        int num = 1273721;
+        System.out.println("Is " + num + " a palindrome number?\n" + solution009.isPalindrome(num));
     }
 
     // Leetcode 101. Symmetric Tree
